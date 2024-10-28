@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <h1>RedGreenViolet</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="banner-carousel">
+            <div class="banner-image active" style="background-image: url('/prf_img/left.jpg');"></div>
+            <div class="banner-image" style="background-image: url('/prf_img/center.jpg');"></div>
+            <div class="banner-image" style="background-image: url('/prf_img/right.jpg');"></div>
+        </div>
+        <div class="overlay"></div>
+        <div class="content">
+            <h2><b>Raagav Sundar</b></h2>
+            <p>
+                Dive into my world of imagination and creativity
+            </p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>My Art Categories</h2>
+        <div class="portfolio-grid">
+            <a href="/gd_gallery/gd.html" class="category category_design"><img src="/graphic design/gd1.jpg" height="250px" ></a>
+            <a href="/sk_gallery/sk.html" class="category category-sketch"><img src="/sketch/sk4.jpg" height="250px"></a>
+            <a href="/gr_gallery/gr.html" class="category category-graffiti"><img src="/Graffiti/gif1.png" height="250px"></a>
+        </div>
+    </section>
+
+    <!-- Instagram Embed Section -->
+    <section id="contact" class="contact">
+        <h2>Connect with Me</h2>
+        <p>Follow my work on Instagram</p>
+        <iframe src="https://instagram.com/redgreenviolet_art/embed" width="1500" height="1000" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy;<B>MADE BY:</B> Kushagra raj singh | Follow me on <a href="https://instagram.com/kushagra.raj.singh" target="_blank">Instagram</a></p>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+</html>
